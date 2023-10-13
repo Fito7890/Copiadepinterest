@@ -11,6 +11,7 @@ nav{
     justify-content: space-between;
     background-color: white;
     align-items: center;
+    z-index: 1000;
 }
 
 .finder{
