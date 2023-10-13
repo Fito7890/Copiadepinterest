@@ -132,6 +132,8 @@ nav{
     
 }
 .card-image{
+    position: relative;
+    display: inline-block;
     margin: 5px;
     border: none;
     border-radius: 10px; 
@@ -139,4 +141,46 @@ nav{
 }
 .card-image:hover{
     cursor: zoom-in;
+}
+.share-button{
+    background-image: url(/imagenes/subir.png);
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.puntos-button{
+    background-image: url(/imagenes/mas\ \(2\).png);
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image-buttons {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 97%;
+    height: 98%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border: none;
+    border-radius: 2%;
+}
+
+.card-image:hover .card-image-buttons {
+    opacity: 1;
+}
+
+.card-image-buttons button {
+    margin: 10px 5px;
+    padding: 16px 17px;
+    background-color: #b5b5b5;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
 }
