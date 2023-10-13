@@ -1,0 +1,142 @@
+
+
+#logo{ 
+    padding: 15px;
+}
+nav{
+    top: 0;
+    position: sticky;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.finder{
+    background-image: url(/imagenes/busqueda-de-lupa.png) ;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    font-size: 16px;
+    height: 50px;
+    font-weight: normal;
+    width: 50%;
+    padding: 0px 40px;
+    border: none;
+    background-color: rgb(219, 215, 215);
+    border-radius: 20px;
+    color: #333;
+    
+}
+.finder:focus{
+    background-image: none;
+}
+#notificacions{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url(/imagenes/campana.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#message{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url(/imagenes/comentario.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#Inicio {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#Inicio:hover {
+    background-color: black;
+    color: white;
+}
+#Explorar {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#Explorar:hover {
+    background-color: black;
+    color: white;
+}
+#Crear {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#Crear:hover {
+    background-color: black;
+    color: white;
+}
+
+#profile-img{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+}
+#imagen{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-image{
+    margin: 5px;
+    border: none;
+    border-radius: 10px; 
+    ;
+}
+.card-image:hover{
+    cursor: zoom-in;
+}
