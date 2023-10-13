@@ -155,6 +155,23 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
 }
+.descargar{
+    position: absolute;
+    top: 15px;
+    left: 147px;
+    height: 35px;
+    opacity: 0;
+}
+.descarga{
+    border-radius: 23px;
+    border: none;
+    height: 47px;
+    width: 92px;
+    background-color: red;
+    color: white;
+    font-family: -apple-system;
+    font-size: 19px;
+}
 
 .card-image-buttons {
     position: absolute;
@@ -175,6 +192,9 @@ nav{
 .card-image:hover .card-image-buttons {
     opacity: 1;
 }
+.card-image:hover .descargar{
+    opacity: 1;
+}
 
 .card-image-buttons button {
     margin: 10px 5px;
@@ -184,3 +204,4 @@ nav{
     border-radius: 100%;
     cursor: pointer;
 }
+
